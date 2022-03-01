@@ -24,7 +24,7 @@ default: &default
 x-local_database: &x-local-database
   username: postgres
   password: postgres
-  host: localhost
+  host: db
   port: 5432
 
 development:
