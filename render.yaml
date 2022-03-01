@@ -17,7 +17,7 @@ services:
       - key: SECRET_KEY_BASE
         generateValue: true
 
-  - type: pserv
+  - type: worker 
     name: myrailssite-goodjob
     env: ruby
     buildCommand: "./bin/render-build.sh"
